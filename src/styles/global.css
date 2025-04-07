@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@font-face {
+  font-family: "DistantGalaxy";
+  src: url("/fonts/DistantGalaxy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
