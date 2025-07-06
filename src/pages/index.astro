@@ -1,8 +1,14 @@
 ---
-import {Navbar} from '../components/layout/Navbar/navbar';
-import Layout from '../layouts/Layout.astro';
-import '../styles/global.css'
+import { Navbar } from "../components/layout/navbar/navbar";
+import { Home } from "../modules/home/home";
+import Layout from "../layouts/Layout.astro";
+import "../styles/reset.css";
+import "../styles/global.css";
 ---
+
 <Layout>
-	<Navbar/>
+  <div class="max-h-dvh h-full flex flex-col">
+    <Navbar />
+    <Home />
+  </div>
 </Layout>
